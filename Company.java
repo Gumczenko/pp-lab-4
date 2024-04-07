@@ -20,7 +20,7 @@ public class Company {
         ((Manager) employees[0]).setNumberOfSubordinates(niemenagerowie);
         employees[0].setSalary(7500);
 
-        System.out.println("Dane dla wszystkich pracowników:");
+        System.out.println("dane dla wszystkich pracownikow:");
         for (Employee employee : employees) {
             System.out.println(employee);
         }
